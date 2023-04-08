@@ -2,126 +2,76 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.4.11](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.10...v1.4.11) (2023-01-04)
+### [1.1.3](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.1.2...v1.1.3) (2023-01-17)
 
-### [1.4.10](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.9...v1.4.10) (2022-09-30)
+### [1.1.2](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.1.1...v1.1.2) (2022-10-21)
 
-
-### Bug Fixes
-
-* support new 'ECS' deployment type rather than relying on a null value ([#387](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/387)) ([b74b034](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/b74b034038701c2a78e7715e68f28b8fd49a14c7))
-* Use correct host for China region console ([#309](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/309)) ([bfe35b5](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/bfe35b582b00dd351d71abc7af67f91e493c0802))
-
-### [1.4.9](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.8...v1.4.9) (2022-01-18)
+### [1.1.1](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.1.0...v1.1.1) (2022-01-18)
 
 
 ### Bug Fixes
 
-* Strict Mode Deprecation ([ec3c2b2](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/ec3c2b2d3e7138039c827953d14cccbedc99ae23))
+* Strict Mode Deprecation ([#150](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/150)) ([1d693a5](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/1d693a567ca030686d891af532ada9b4d908f863))
 
-### [1.4.8](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.7...v1.4.8) (2021-11-23)
-
-### [1.4.7](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.6...v1.4.7) (2021-07-13)
-
-
-### Bug Fixes
-
-* Container Definition Environment variables are being removed when empty ([#224](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/224)) ([632a7fa](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/632a7fad2a714a363ed824224a88254c429236d5))
-
-### [1.4.6](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.5...v1.4.6) (2021-06-02)
-
-
-### Bug Fixes
-
-* Cannot read property 'length' of undefined ([#202](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/202)) ([8009d7d](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/8009d7da6ac76c5f49983585decef599d9916042))
-
-### [1.4.5](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.4...v1.4.5) (2021-05-10)
-
-### [1.4.4](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.3...v1.4.4) (2021-02-23)
-
-### [1.4.3](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.2...v1.4.3) (2021-02-08)
-
-
-### Bug Fixes
-
-* allow empty values in proxyConfiguration.properties ([#168](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/168)) ([3963f7f](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/3963f7f3050f9c64b285d6a437b3d447a73131f3)), closes [#163](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/163)
-* enable forceNewDeployment for ECS Task that is broken per [#157](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/157) ([#159](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/159)) ([4b6d445](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/4b6d44541b0b3e5871a0eb4265d8c35a35cbb215))
-
-### [1.4.2](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.1...v1.4.2) (2021-01-26)
-
-
-### Bug Fixes
-
-* ignore additional fields from task definition input ([#165](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/165)) ([7727942](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/77279428f4b2e987d6c03366891893fb8161c1e4))
-
-### [1.4.1](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.4.0...v1.4.1) (2020-12-22)
-
-
-### Bug Fixes
-
-* forceNewDeployment input to take a boolean ([#150](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/150)) ([06f69cf](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/06f69cf0d8243e21900f315a65772f40e9b508a2))
-* forceNewDeployment to be a boolean ([#140](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/140)) ([9407da9](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/9407da9865a8d6b2d45c8239daeaff7203b49d45))
-
-## [1.4.0](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.10...v1.4.0) (2020-10-29)
+## [1.1.0](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.24...v1.1.0) (2021-12-01)
 
 
 ### Features
 
-* allow forceNewDeployment ([#116](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/116)) ([f2d330f](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/f2d330fcd84477fa5332a7f18acb483c21e31bee))
+* add environment-variables support ([#114](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/114)) ([85f5e35](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/85f5e350c104582a36945a4b66abdd29b42123bf))
 
-### [1.3.10](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.9...v1.3.10) (2020-09-29)
+### [1.0.24](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.23...v1.0.24) (2021-08-24)
 
-### [1.3.9](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.8...v1.3.9) (2020-08-25)
+### [1.0.23](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.22...v1.0.23) (2021-07-06)
 
-### [1.3.8](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.7...v1.3.8) (2020-08-11)
+### [1.0.22](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.21...v1.0.22) (2021-06-01)
 
-### [1.3.7](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.6...v1.3.7) (2020-07-17)
+### [1.0.21](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.20...v1.0.21) (2021-05-10)
 
-### [1.3.6](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.5...v1.3.6) (2020-07-14)
+### [1.0.20](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.19...v1.0.20) (2021-03-02)
 
-### [1.3.5](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.4...v1.3.5) (2020-06-30)
+### [1.0.19](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.18...v1.0.19) (2021-02-02)
 
-### [1.3.4](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.3...v1.3.4) (2020-06-09)
+### [1.0.18](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.17...v1.0.18) (2021-01-19)
 
-### [1.3.3](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.2...v1.3.3) (2020-05-27)
+### [1.0.17](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.16...v1.0.17) (2020-11-11)
 
-### [1.3.2](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.1...v1.3.2) (2020-05-18)
+### [1.0.16](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.15...v1.0.16) (2020-10-29)
 
-### [1.3.1](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.3.0...v1.3.1) (2020-05-08)
+### [1.0.15](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.14...v1.0.15) (2020-10-05)
 
+### [1.0.14](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.13...v1.0.14) (2020-08-25)
 
-### Bug Fixes
+### [1.0.13](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.12...v1.0.13) (2020-08-11)
 
-* clean null values out of arrays ([#63](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/63)) ([6b1f3e4](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/6b1f3e4e8c4e9b191fbf70a5c79418b7eaa995a9))
+### [1.0.12](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.11...v1.0.12) (2020-07-17)
 
-## [1.3.0](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.2.0...v1.3.0) (2020-04-22)
+### [1.0.11](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.10...v1.0.11) (2020-07-10)
 
+### [1.0.10](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.9...v1.0.10) (2020-06-30)
 
-### Features
+### [1.0.9](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.8...v1.0.9) (2020-06-09)
 
-* Add more debugging, including link to the ECS or CodeDeploy console ([#56](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/56)) ([f0b3966](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/f0b3966cfef41a73fc35f3001025fb9290b3673b))
+### [1.0.8](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.7...v1.0.8) (2020-05-27)
 
-## [1.2.0](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.1.0...v1.2.0) (2020-04-02)
+### [1.0.7](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.6...v1.0.7) (2020-05-18)
 
-
-### Features
-
-* clean empty arrays and objects from the task def file ([#52](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/52)) ([e64c8a6](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/e64c8a6fd7cb8f40b6487fc0acd0a357cc1eaffd))
-
-## [1.1.0](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.0.3...v1.1.0) (2020-03-05)
-
-
-### Features
-
-* add option to specify number of minutes to wait for deployment to complete ([#37](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/37)) ([27c64c3](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/27c64c3fabb355c8a4311a02eaf507f684adc033)), closes [#33](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/33)
-
-### [1.0.3](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.0.2...v1.0.3) (2020-02-06)
-
-### [1.0.2](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/compare/v1.0.1...v1.0.2) (2020-02-06)
+### [1.0.6](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.5...v1.0.6) (2020-05-12)
 
 
 ### Bug Fixes
 
-* Ignore task definition fields that are Describe outputs, but not Register inputs ([70d7e5a](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/70d7e5a70a160768b612a0d0db2820fb24259958)), closes [#22](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/issues/22)
-* Match package version to current tag version ([2c12fa8](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/2c12fa8bf9f89ea322d319c83cfcf8f3175bfbb1))
-* Reduce error debugging ([7a9b7f7](https://github.com/aws-actions/amazon-ecs-deploy-task-definition/commit/7a9b7f71e4f9b87151c1b4e3bde474db2eee1595))
+* use new tmp dir options in upgraded library ([#29](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/29)) ([a685a32](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/a685a3206bbf6d13f6ac57bf1775615c641e4718))
+
+### [1.0.5](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.4...v1.0.5) (2020-04-23)
+
+### [1.0.4](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.3...v1.0.4) (2020-04-02)
+
+### [1.0.3](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.2...v1.0.3) (2020-03-05)
+
+### [1.0.2](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.0.1...v1.0.2) (2020-02-06)
+
+
+### Bug Fixes
+
+* Match package version to current tag version ([c4510c0](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/c4510c088f9972e8dede305ea53b44f444666225))
