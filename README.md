@@ -114,7 +114,7 @@ We recommend following [Amazon IAM best practices](https://docs.aws.amazon.com/I
 * [Rotate the credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#rotate-credentials) used in GitHub Actions workflows regularly.
 * [Monitor the activity](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#keep-a-log) of the credentials used in GitHub Actions workflows.
 
-## Permissions
+### Permissions
 
 This action requires the following minimum set of permissions:
 
